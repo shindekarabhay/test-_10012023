@@ -9,3 +9,5 @@ EXECUTE 'ALTER TABLE ' || quote_ident(schema_name) || '.' || quote_ident(table_n
 EXECUTE 'GRANT SELECT ON TABLE ' || quote_ident(schema_name) || '.' || quote_ident(table_name) || ' TO group readonly_group' ;
 RAISE INFO 'Grants given to %.% table successfully .',schema_name,table_name ;
 END;
+
+-- added commnt here
