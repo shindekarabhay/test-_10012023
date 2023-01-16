@@ -11,3 +11,5 @@ RAISE INFO 'Grants given to %.% table successfully .',schema_name,table_name ;
 END;
 
 -- added commnt here
+
+-- added comment
